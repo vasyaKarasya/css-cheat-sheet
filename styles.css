@@ -1,0 +1,60 @@
+html, body {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.wrapper h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border: 3px solid #BDB76B;
+    
+}
+
+.table-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;    
+}
+
+td {
+    border: 1px solid #BDB76B;
+    padding: 5px 5px;
+}
+ td:hover {
+    background-color: #FFFACD;
+ }
+
+th {
+    border: 1px solid #BDB76B;
+    background-color: #ffdab9;
+}
+
+.description-title {
+    width: 40%;
+}
+
+.description {
+    text-align: justify;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.type-sel {
+    width: 60px
+}
+
+.syntax {
+    color: #5c5933;
+    font-weight: bolder;
+    text-align: center;
+}
+
+span {
+    background-color: #ffff00;
+}

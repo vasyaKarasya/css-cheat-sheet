@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Basic CSS selectors</h1>
+        <h3>CSS selectors define the pattern to select elements to which a set of CSS rules are then applied</h3>
+        <p>CSS selectors can be grouped into the following categories based on the type of elements they can select.</p>
+        <table>
+            <tr>
+                <td class="table-header" colspan="4">BASIC CSS SELECTORS</td>
+            </tr>
+            <tr>
+                <th class="type-sel">Type of selector</td>
+                <th class="description-title">Description</th>
+                <th>Syntax</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td class="title">Universal selector</td>
+                <td class="description">Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces.</td>
+                <td class="syntax">* ns|* *|*</td>
+                <td class="description"><span>*</span> will match all the elements of the document.</td>
+            </tr>
+            <tr>
+                <td class="title">Type selector</td>
+                <td class="description">Selects all elements that have the given node name.</td>
+                <td class="syntax">elementname</td>
+                <td class="description"><span>input</span> will match any &lt;input&gt; element.</td>
+            </tr>
+            <tr>
+                <td class="title">Class selector</td>
+                <td class="description">Selects all elements that have the given class attribute.</td>
+                <td class="syntax">.classname</td>
+                <td class="description"><span>.index</span> will match any element that has class="index"</td>
+            </tr>
+            <tr>
+                <td class="title">ID selector</td>
+                <td class="description">Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document.</td>
+                <td class="syntax">#idname</td>
+                <td class="description"><span>#start-button</span> will match the element that has id="start-button".</td>
+            </tr>
+            <tr>
+                <td class="title">ID selector</td>
+                <td class="description">Selects all elements that have the given attribute.</td>
+                <td class="syntax">[attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value]</td>
+                <td class="description"><span>[autoplay]</span> will match all elements that have the autoplay attribute set (to any value).</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
